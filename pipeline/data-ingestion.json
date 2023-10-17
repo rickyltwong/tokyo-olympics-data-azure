@@ -124,7 +124,7 @@
 				]
 			},
 			{
-				"name": "Copy data1",
+				"name": "EntriesGenderCSV",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
