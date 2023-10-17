@@ -1,5 +1,5 @@
 {
-	"name": "EntriesGender",
+	"name": "EntriesGenderCSV",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "EntriesGenderHTTP",

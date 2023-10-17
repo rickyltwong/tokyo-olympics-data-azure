@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Medals.csv"
+				"relativeUrl": "Teams.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
