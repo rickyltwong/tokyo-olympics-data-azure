@@ -1,5 +1,5 @@
 {
-	"name": "MedalsADLS",
+	"name": "TeamsADLS",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "taxiadls",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "medals.csv",
+				"fileName": "teams.csv",
 				"folderPath": "raw-data",
 				"fileSystem": "tokyo-olympic-data"
 			},

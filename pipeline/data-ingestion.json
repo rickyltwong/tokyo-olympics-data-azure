@@ -246,15 +246,22 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "MedalsADLS",
+						"referenceName": "TeamsADLS",
 						"type": "DatasetReference"
 					}
 				]
 			},
 			{
-				"name": "Teams",
+				"name": "TeamsCSV",
 				"type": "Copy",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "MedalsCSV",
+						"dependencyConditions": [
+							"Completed"
+						]
+					}
+				],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
@@ -303,7 +310,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "MedalsADLS",
+						"referenceName": "TeamsADLS",
 						"type": "DatasetReference"
 					}
 				]
